@@ -1,0 +1,47 @@
+{
+    "name": "reind33r/simpledateformatter",
+    "description": ":description",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Louis Guidez",
+            "email": "louis@hostux.fr",
+            "homepage": "https://louis.hostux.fr"
+        }
+    ],
+    "homepage": "https://github.com/reind33r/simpledateformatter",
+    "keywords": ["Laravel", "SimpleDateFormatter"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "reind33r\\SimpleDateFormatter\\": "src/"
+        },
+
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "reind33r\\SimpleDateFormatter\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "reind33r\\SimpleDateFormatter\\SimpleDateFormatterServiceProvider"
+            ],
+            "aliases": {
+                "SimpleDateFormatter": "reind33r\\SimpleDateFormatter\\Facades\\SimpleDateFormatter"
+            }
+        }
+    }
+}
