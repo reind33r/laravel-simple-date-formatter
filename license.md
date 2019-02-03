@@ -1,4 +1,4 @@
-Copyright (c) 2019 <Louis Guidez (reind33r)>
+Copyright (c) 2019 Louis Guidez (reind33r)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
